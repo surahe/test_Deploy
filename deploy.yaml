@@ -13,7 +13,7 @@ deploy:
     port: "11037"
     ref: origin/master
     repo:
-      git@github.com:surahe/trailer-website.git
+      git@github.com:surahe/test_Deploy.git
     path: /www/test/production
     ssh_options: StrictHostKeyChecking=no
     pre-deploy: git fetch --all
