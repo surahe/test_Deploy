@@ -14,7 +14,7 @@ deploy:
     ref: origin/master
     repo:
       git@github.com:surahe/trailer-website.git
-    path: /www/website/production
+    path: /www/test/production
     ssh_options: StrictHostKeyChecking=no
     pre-deploy: git fetch --all
     env:
