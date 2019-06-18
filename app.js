@@ -20,6 +20,6 @@ http.createServer((req, res) => {
   res.setHeader('Content-Type', 'text/html')
   res.end(html)
 })
-.listen(3000, () => {
-  console.log('Server running at 3000')
+.listen(3002, () => {
+  console.log('Server running at 3002')
 })
